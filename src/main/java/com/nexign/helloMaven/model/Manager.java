@@ -5,6 +5,8 @@ public class Manager extends Person {
         super(name, age);
     }
 
+
+
     @Override
     public void drive() {
         System.out.println("НЕ ВОДИТ ВООБЩЕ");

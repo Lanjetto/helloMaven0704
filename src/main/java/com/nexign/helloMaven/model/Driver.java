@@ -20,5 +20,7 @@ public class Driver extends Person{
     @Override
     public void drive() {
         System.out.println("Профессионально водит");
+
+
     }
 }
