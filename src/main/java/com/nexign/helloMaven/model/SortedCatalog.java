@@ -9,6 +9,8 @@ public class SortedCatalog implements Sortable{
     private List<Car> carList = List.of(
             new Car("toyota", "white", 2001),
             new Car("nissan", "grey", 2001),
+            new Car("geely", "black", 2024),
+            new Car("geely", "black", 2024),
             new Car("geely", "black", 2024)
     );
 

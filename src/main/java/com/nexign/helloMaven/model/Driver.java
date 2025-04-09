@@ -1,5 +1,7 @@
 package com.nexign.helloMaven.model;
 
+import com.nexign.helloMaven.service.FunInterface;
+
 public class Driver extends Person{
     private Category category;
 
@@ -20,7 +22,14 @@ public class Driver extends Person{
     @Override
     public void drive() {
         System.out.println("Профессионально водит");
-
-
     }
+
+    public void drive(Car car) {
+        System.out.println(car.getName());
+    }
+
+    public void drive(Car car, FunInterface f) {
+        System.out.println(f.fun(car));
+    }
+
 }

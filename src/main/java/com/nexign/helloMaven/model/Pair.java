@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Objects;
 
 
-public class Pair<M extends Movable, P extends Person> {
+public class Pair<M, P> {
     private M car;
     private P driver;
 
